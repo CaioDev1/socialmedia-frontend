@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react'
 
+import {enable as enableDarkMode} from 'darkreader'
+
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Content from './Content'
@@ -14,6 +16,12 @@ function App({device}) {
     const [Auth, setAuth] = useState({
         userData: {},
         authStatus: 'processing'
+    })
+
+    enableDarkMode({
+        brightness: 100,
+        contrast: 100,
+        sepia: 0
     })
 
     useEffect(() => {
