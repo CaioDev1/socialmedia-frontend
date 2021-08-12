@@ -9,8 +9,6 @@ import api from '../../../../../../services/API_CONFIG'
 function LogOffConfirm({isLogOffClicked, setIsLogOffClicked}) {
 
     function handleLogOut() {
-        /* localStorage.removeItem('local_token') */
-
         api.get('/logoff').then(() => {
             window.location = '/'
         })
@@ -21,8 +19,6 @@ function LogOffConfirm({isLogOffClicked, setIsLogOffClicked}) {
             <div className='LogOffConfirm'>
                 <div className='LogOffConfirmMenu'>
                     <div className='LogOffReturn' onClick={() => {
-                        //document.querySelector('.LogOffConfirm').classList.remove('isLogOffClicked')
-
                         setIsLogOffClicked(false)
                     }}>
                         <Close style={{fill: 'white'}} />

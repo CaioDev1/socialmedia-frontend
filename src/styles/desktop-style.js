@@ -15,7 +15,7 @@ html {
     color: white;
 }
 
-h1, h2, h3, h4, h5 { /* trocar os h's pra class title */
+h1, h2, h3, h4, h5 {
     color: white;
     text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.377);
     font-family: 'Roboto', sans-serif;
@@ -38,15 +38,15 @@ h1, h2, h3, h4, h5 { /* trocar os h's pra class title */
         align-items: center;
     }
         .Brand * {
-            margin: auto;
+            margin: 5px auto;
         }
         .Brand img {
-            width: 25%;
+            width: 20%;
             height: 10%;
         }
         .Brand h1 {
             font-size: 3.5rem;
-            font-family: 'Bebas Neue', cursive;
+            font-family: 'Righteous', cursive;
         }
 
     /* LEFT MENU */
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5 { /* trocar os h's pra class title */
 
         backdrop-filter: blur(3px);
 
-        background: linear-gradient(to right, #ee097880, #ff6a0083);
+        background: linear-gradient(to right, #f72553, #ff6a0083);
 
         
                             /* SETADOS DE BASE PRA CRIAR A ANIMAÇÃO DE SLIDE */
@@ -986,8 +986,6 @@ h1, h2, h3, h4, h5 { /* trocar os h's pra class title */
         .LoginMenu .Brand img {
             width: 300px;
             height: 300px;
-
-            margin-bottom: 0;
         }
         .LoginMenu .Brand h1 {
             

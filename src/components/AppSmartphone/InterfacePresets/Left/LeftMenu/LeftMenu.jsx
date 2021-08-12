@@ -23,11 +23,11 @@ function LeftMenu() {
                         <a href='https://github.com/CaioDev1' target='_blank' className='nav-link' style={{color: 'white'}}>GitHub</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='https://www.instagram.com/itsme_caio' target='_blank' className='nav-link' style={{color: 'white'}}>Support</a>
+                        <a href='https://www.instagram.com/itsme_caio' target='_blank' className='nav-link' style={{color: 'white'}}>Creator</a>
                     </li>
                 </ul>
                 <footer>
-                    <p> Made with ❤ by CuscuzComCharque Productions </p>
+                    <p> Made with ❤ by CaioDev1</p>
                 </footer>
             </div>
         </Slide>

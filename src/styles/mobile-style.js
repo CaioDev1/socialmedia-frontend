@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
         display: flex;
         flex-direction: column;
 
-        background: linear-gradient(to left, #ee0979, #ff6a00);
+        background: linear-gradient(to left, #f72553, #ff6a00);
 
         width: 250px;
         height: 100%;
@@ -66,13 +66,10 @@ h1, h2, h3, h4, h5, h6 {
 
         z-index: 5;
     }
+
     .LeftMenu a {
         text-decoration: none;
     }
-
-    /* .isLeftMenuClicked { 
-        right: 0%;
-    } */
 
     .LeftMenu::-webkit-scrollbar, .ChatMessages::-webkit-scrollbar {
         display: none;
@@ -292,10 +289,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
 }
-    /* .PostArea h1 {
-        text-align: center;
-        padding-top: 60px;
-    } */
+
         .PostArea > img {
             margin: 60px auto 10px;
 
@@ -318,7 +312,7 @@ h1, h2, h3, h4, h5, h6 {
     .HeaderMyProfile {
         display: flex;
 
-        width: 60vw;
+        min-width: 60vw;
 
         padding: 5px 10px 10px 5px;
 
@@ -328,13 +322,14 @@ h1, h2, h3, h4, h5, h6 {
 
         background: linear-gradient(to right, #eb3349, #f45c43);
 
+        align-items: center;
 
         backdrop-filter: blur(5px);
 
         left: 0;
         top: 0;
 
-        border-bottom-right-radius: 100px;
+        border-bottom-right-radius: 50px;
         border-top-right-radius: 0px;
 
         z-index: 1;
@@ -343,7 +338,8 @@ h1, h2, h3, h4, h5, h6 {
             margin: 0;
             align-items: center;
         }
-        .HeaderMyProfile img {
+
+        .HeaderMyProfile img, .HeaderMyProfile > svg {
             margin-right: 10px;
             height: 40px;
             width: 40px;
@@ -388,13 +384,6 @@ h1, h2, h3, h4, h5, h6 {
 
             backdrop-filter: blur(5px);
         }
-
-        /* .isLogOffClicked {
-            visibility: initial;
-
-            background-color: rgba(0, 0, 0, 0.349);
-            backdrop-filter: blur(5px);
-        } */
 
             .LogOffReturn {
                 display: flex;
@@ -808,7 +797,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* TRENDING */
 .Trending, .FriendsMenu, .Message, .UserProfile{
-   /*  background-color: rgb(238, 175, 39); */
    background: linear-gradient(to right, #f09819, #edde5d); 
 
     border-radius: 20px;

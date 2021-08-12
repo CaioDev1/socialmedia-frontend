@@ -4,7 +4,6 @@ import api from '../../../../../../services/API_CONFIG'
 
 function Buttons() {
     function handleLogOut() {
-        /* localStorage.removeItem('local_token') */
         api.get('/logoff').then(() => {
             window.location = '/'
         })
@@ -12,13 +11,13 @@ function Buttons() {
 
     return (
         <nav className='Nav'>
-            <p>Made with ❤ by CuscuzComCharque Productions</p>
+            <p>Made with ❤ by CaioDev1</p>
             <ul>
                 <li>
                     <a href='https://github.com/CaioDev1' target='_blank'>GitHub</a>
                 </li>
                 <li>
-                    <a href='https://www.instagram.com/itsme_caio' target='_blank'>Support</a>
+                    <a href='https://www.instagram.com/itsme_caio' target='_blank'>Creator</a>
                 </li>
                 <li>
                     <button className='btn btn-large btn-outline-light' onClick={handleLogOut}>

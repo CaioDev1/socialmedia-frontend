@@ -11,8 +11,6 @@ function LeftMenuHeader() {
         <div className='LeftMenuHeader'>
             <h2>Menu</h2>
             <div className='LeftMenuCloseButton' onClick={() => {
-                /* document.querySelector('.Left').classList.remove('isLeftClicked'); document.querySelector('.LeftMenu').classList.remove('isLeftMenuClicked') */
-
                 setSlideLeftMenu(false)
             }}>
                 <Close style={{fill: 'white'}} />

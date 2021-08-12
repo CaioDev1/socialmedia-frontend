@@ -78,7 +78,7 @@ function PostArea(props) {
         <div className={`${props.device == 'desktop' && 'col-5'} PostArea`}>
             {props.device == 'desktop' && <Header />}
 
-            {props.device == 'smartphone' ? <img src={process.env.PUBLIC_URL + '/BH-bull-white-3.png'} alt='img' /> : <h1>Community</h1>}
+            {props.device == 'smartphone' ? <img src={process.env.PUBLIC_URL + '/mindzone-logo.png'} alt='img' /> : <h1>Community</h1>}
 
             {/* MAPPING DE TODOS OS POSTS NA POST AREA, O PARAM "POST" É UM OBJETO COM OS DADOS DE CADA POST */}
             <InfiniteScroll

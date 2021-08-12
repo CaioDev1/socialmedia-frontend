@@ -8,7 +8,6 @@ function NewPostFormAddButton({setIsNewPostButtonClicked}) {
     return (
         <Zoom in timeout={1000}>
             <div className='NewPostFormAddButton' onClick={() => {
-                //document.querySelector('.NewPostForm').classList.add('isNewPostFormClicked')
                 setIsNewPostButtonClicked(true)
             }}>
                 <PostAddIcon style={{fill: 'white'}} />

@@ -41,7 +41,6 @@ function NewPostForm({isNewPostButtonClicked, setIsNewPostButtonClicked}) {
             <div className='NewPostForm'>
                 <div className='NewPostFormHeader'>
                     <div className='ReturnPostButton' onClick={() => {
-                        //document.querySelector('.NewPostForm').classList.remove('isNewPostFormClicked')
                         setIsNewPostButtonClicked(false)
                         setTextAreaClick(false) // PRA QUANDO SAIR DO MENU O TXTAREA FICAR PEQUENO DNV
                     }}>
@@ -61,7 +60,6 @@ function NewPostForm({isNewPostButtonClicked, setIsNewPostButtonClicked}) {
                     <Zoom in={textAreaClick}>
                         <Fab onClick={() => {
                             setTextAreaClick(false)
-                            //document.querySelector('.NewPostForm').classList.remove('isNewPostFormClicked')
                             setIsNewPostButtonClicked(false)
                             return handlePostData()
                         }} type='submit' className='AddPostButton'>

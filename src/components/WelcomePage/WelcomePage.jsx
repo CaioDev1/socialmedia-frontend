@@ -13,7 +13,7 @@ function WelcomePage() {
                 <div className='WelcomeContent'>
                     <Brand />
                     <div className='WelcomeText'>
-                        <h1>"The social media to share your gaias"</h1>
+                        <h1>"The social media to share your mind zones!"</h1>
                         <h5>- Caio Felipe, 2020</h5>
                     </div>
                     <div className='WelcomeButtons'>

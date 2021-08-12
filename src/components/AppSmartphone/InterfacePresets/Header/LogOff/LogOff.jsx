@@ -10,8 +10,6 @@ function LogOff() {
     return (
         <>
             <div className='LogOff' onClick={() => {
-                //document.querySelector('.LogOffConfirm').classList.add('isLogOffClicked')
-    
                 setIsLogOffClicked(true)
             }}>
                 <ExitToApp style={{fill: 'white'}} />

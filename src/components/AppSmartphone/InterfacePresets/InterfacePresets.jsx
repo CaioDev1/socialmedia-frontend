@@ -27,27 +27,4 @@ function InterfacePresets({title, left=true, postForm=true, down=true, searchMen
     )
 }
 
-/* function LeftPreset() {
-    return <Left />
-}
-function NewPostFormAddButtonPreset() {
-    return <NewPostFormAddButton />
-}
-function NewPostFormPreset() {
-    return <NewPostForm />
-}
-function DownPreset() {
-    return <Down />
-}
-function SearchMenuPreset(props) {
-    return <SearchMenu title={props.title} />
-} */
-
 export default InterfacePresets
-
-
-    /* LeftPreset,
-    NewPostFormAddButtonPreset,
-    NewPostFormPreset,
-    DownPreset,
-    SearchMenuPreset */
