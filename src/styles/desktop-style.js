@@ -986,12 +986,8 @@ h1, h2, h3, h4, h5 {
         .LoginMenu .Brand img {
             width: 300px;
             height: 300px;
-        }
-        .LoginMenu .Brand h1 {
-            
-            width: 100%;
-            
-            font-size: 3rem;
+
+            margin: auto;
         }
         
         .LoginMenu .LoginRegisterData {
