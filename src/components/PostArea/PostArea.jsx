@@ -49,6 +49,7 @@ function PostArea(props) {
     const fetcher = () => {
         if(hasMore && isRequestFinished) {
             setIsRequestFinished(false)
+            setHasMore(false)
 
             api.get(`/posts?from=${numberOfPosts.from}&to=${numberOfPosts.to}`).then(response => {
                 setPostArray(preValue => {
@@ -67,9 +68,9 @@ function PostArea(props) {
                 
                 if(numberOfPosts.from >= response.data.allPostsLength){
                     setHasMore(false)
+                } else {
+                    setHasMore(true)
                 }
-
-                /* setIsRequestFinished(true) */
             })
         }
     }
