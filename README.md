@@ -16,7 +16,7 @@
   <h3 align="center">Mindzone</h3>
 
   <p align="center">
-    Uma plataforma de perguntar e respostas, teste seus conhecimentos, crie quizzes e compare seus resultados com outros jogadores! 
+    Compartilhe suas ideias, acompanhe pensamentos de outros usuários, converse com seus amigos, curta, comente e socialize entre a comunidade de Mindzoners! 
     <br />
     <a href="https://mindzone.herokuapp.com"><strong>Abrir app »</strong></a>
     <br />
@@ -58,26 +58,31 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://mindzone.herokuapp.com/)
 
-O Quizzy é uma plataforma "gameficada" de testes de conhecimentos baseados em diversos temas, nele, é possível a criação de quizzes com inúmeras perguntas, configurar as alternativas,
-e enviar seu quizz para diversos outros usuários, no Quizzy, temos duas equipes adversárias, o time "Sabidos" e o "Wikipédia", dessa forma é possível você escolher a sua bandeira a defender
-e com isso, somar pontuações para sua equipe com base no seu desempenho nas respostas, ganha a equipe com maior número de pontos.
+O Mindzone é uma rede social focada na interação e troca de ideias entre os usuários, fomentando a criatividade, diferentes pontos de vista e complementos, na plataforma, você é capaz de adicionar outros usuários como amigos, acompanhar as principais postagens, conversar com outros usuários em chat e muito mais. Opine, contribua e agregue conosco!
 
 [![Product Name Screen Shot2][product-screenshot2]](https://mindzone.herokuapp.com/ )
 
-* Crie quizzes e envie para outros jogadores
-* Selecione sua equipe e acompanhe seus resultados com as diferentes salas de quizz
-* Acompanhe seu progresso durante o jogo, atinja o melhor resultado e fique no TOP melhores jogadores
+* Acompanhe as publicações de outros usuários
+* Curta e comente as postagens
+* Adicione amigos
+* Crie chat's exclusivos com outros usuários
+* Veja as postagens em alta na plataforma
+* Filtre usuários
 
 <h3 id="feito-utilizando">🔧 Feito Utilizando</h3>
 
 Para uma maior fluídez da aplicação na parte do frontend, foi utilizado ReactJS. No lado da API da aplicação, onde fica toda a regra de negócio e autenticação,
-foi utilizado NodeJS com Express. No banco de dados, modelo relacional com MySQL. 
+foi utilizado NodeJS com Express. No banco de dados, modelo não relacional com MongoDB.
+
+Firebase Storage para a manipulação de arquivos na nuvem e Web Socket's para funcionalidades da aplicação em tempo real.
 
 Segue a lista de ferramentas:
 * [ReactJS](https://pt-br.reactjs.org/)
 * [NodeJS](https://nodejs.org/en/)
 * [Express](https://expressjs.com/pt-br/)
-* [MySQL](https://www.mysql.com/)
+* [MongoDB](https://www.mongodb.com/)
+* [Firebase](https://www.firebase.com/)
+* [Socket.IO](https://socket.io/)
 
 
 <!-- GETTING STARTED -->
@@ -97,6 +102,13 @@ Para isso, siga os seguintes passos:
    ```sh
    npm install
    ```
+3. Crie um arquivo `.env` na raiz do projeto com todos os dados sensíveis da aplicação.
+   ```
+    ATRIBUTO=VALOR
+    ATRIBUTO=VALOR
+    
+    ...
+   ```
 
 
 <!-- USAGE EXAMPLES -->
@@ -105,7 +117,7 @@ Para isso, siga os seguintes passos:
 Além da parte do frontend da aplicação, temos a API que gerencia as requisições e trata todo o esquema e segurança da aplicação,
 para acessa-la, basta ir para o link do repositório abaixo: 
 
-_[Mindzone NodeJS API](https://github.com/CaioDev1/socialmedia-api)_
+_[Mindzone NodeJS API](https://github.com/CaioDev1/socialmedia-backend)_
 
 
 <!-- LICENSE -->
