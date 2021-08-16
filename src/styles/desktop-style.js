@@ -270,6 +270,8 @@ h1, h2, h3, h4, h5 {
                     width: 50px;
                     border-radius: 100%;
 
+                    object-fit: cover;
+
                     border: 2px solid white;
                 }
                 .PostHeader p {
