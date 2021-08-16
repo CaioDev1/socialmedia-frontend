@@ -473,6 +473,8 @@ h1, h2, h3, h4, h5, h6 {
                     height: 50px;
                     width: 50px;
                     border-radius: 100%;
+
+                    object-fit: cover;
                 
                     border: 2px solid white;
                 }
@@ -664,6 +666,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px;
     width: 40px;
 
+    object-fit: cover;
+
     border-radius: 100px;
     border: 2px solid white;
 }
@@ -776,6 +780,8 @@ h1, h2, h3, h4, h5, h6 {
     .TopTrendingPost img {
         height: 100px;
         width: 100px;
+
+        object-fit: cover;
 
         border-radius: 100%;
     }
@@ -927,6 +933,8 @@ h1, h2, h3, h4, h5, h6 {
         .Friend img {
             height: 70px;
             width: 70px;
+
+            object-fit: cover;
         
             border-radius: 100%;
             border: 2px solid white;
@@ -1012,6 +1020,8 @@ h1, h2, h3, h4, h5, h6 {
 
         border-radius: 100%;
 
+        object-fit: cover;
+
         border: 2px solid white;
 
         margin-right: 20px;
@@ -1060,6 +1070,8 @@ h1, h2, h3, h4, h5, h6 {
         width: 100px;
 
         border-radius: 100%;
+
+        object-fit: cover;
 
         border: 2px solid white;
 

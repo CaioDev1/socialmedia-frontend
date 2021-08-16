@@ -648,6 +648,8 @@ h1, h2, h3, h4, h5 {
 
         border-radius: 100%;
 
+        object-fit: cover;
+        
         border: 2px solid white;
 
         margin: 10px auto;
@@ -729,6 +731,8 @@ h1, h2, h3, h4, h5 {
         border-radius: 100%;
 
         border: 2px solid white;
+
+        object-fit: cover;
 
         margin-right: 20px;
     }
@@ -837,6 +841,8 @@ h1, h2, h3, h4, h5 {
 
         border-radius: 100%;
         border: 2px solid white;
+
+        object-fit: cover;
 
         margin-right: 20px;
     }
