@@ -5,7 +5,7 @@ import {Zoom, Fab} from '@material-ui/core'
 
 import api from '../../../../../../services/API_CONFIG'
 
-function NewPostForm({id}) {
+function NewPostForm() {
     const [textAreaClick, setTextAreaClick] = useState(false)
 
     const [txtValue, setTxtValue] = useState('')
@@ -25,7 +25,7 @@ function NewPostForm({id}) {
             setTitle('⚠ Max length: 400')
         } else {
             setTitle('Sending...')
-            api.post('/posts', {content: txtValue, db_user_id: id})
+            api.post('/posts', {content: txtValue})
                 .then(() => {
                     setTitle('Post area')
 

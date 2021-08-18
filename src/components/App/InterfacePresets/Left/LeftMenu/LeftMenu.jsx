@@ -14,7 +14,7 @@ function LeftMenu() {
     return (
         <Slide direction='up' in timeout={1000} mountOnEnter>
             <div className='LeftMenu'>
-                <NewPostForm id={userData.db_user_id} />
+                <NewPostForm />
                 <hr />
                 <LeftOptions id={userData.db_user_id} />
                 <MyProfile username={userData.username} photo={userData.photo} id={userData.db_user_id} />
