@@ -60,7 +60,7 @@
 
 O Mindzone é uma rede social focada na interação e troca de ideias entre os usuários, fomentando a criatividade, diferentes pontos de vista e complementos, na plataforma, você é capaz de adicionar outros usuários como amigos, acompanhar as principais postagens, conversar com outros usuários em chat e muito mais. Opine, contribua e agregue conosco!
 
-[![Product Name Screen Shot2][product-screenshot2]](https://mindzone.herokuapp.com/ )
+[![Product Name Screen Shot2][product-screenshot2]](https://mindzone.herokuapp.com/)
 
 * Acompanhe as publicações de outros usuários
 * Curta e comente as postagens
@@ -68,6 +68,8 @@ O Mindzone é uma rede social focada na interação e troca de ideias entre os u
 * Crie chat's exclusivos com outros usuários
 * Veja as postagens em alta na plataforma
 * Filtre usuários
+
+[![Product Name Screen Shot3][product-screenshot3]](https://mindzone.herokuapp.com/)
 
 <h3 id="feito-utilizando">🔧 Feito Utilizando</h3>
 
@@ -151,5 +153,6 @@ Link do projeto: [https://github.com/CaioDev1/socialmedia-frontend](https://gith
 [license-url]: https://github.com/CaioDev1/socialmedia-frontend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/FALTA-COLOCAR
-[product-screenshot]: public/quizzy-gif1.gif
-[product-screenshot2]: public/quizzy-gif2.gif
+[product-screenshot]: public/mindzone-gif1.gif
+[product-screenshot2]: public/mindzone-gif2.gif
+[product-screenshot3]: public/mindzone-gif3.gif
