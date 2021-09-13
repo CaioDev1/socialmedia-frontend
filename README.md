@@ -152,7 +152,7 @@ Link do projeto: [https://github.com/CaioDev1/socialmedia-frontend](https://gith
 [license-shield]: https://img.shields.io/github/license/CaioDev1/socialmedia-frontend.svg?style=for-the-badge
 [license-url]: https://github.com/CaioDev1/socialmedia-frontend/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/caio-cardoso-158133196
+[linkedin-url]: https://www.linkedin.com/in/caiodev1/
 [product-screenshot]: public/mindzone-gif1.gif
 [product-screenshot2]: public/mindzone-gif2.gif
 [product-screenshot3]: public/mindzone-gif3.gif
